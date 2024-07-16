@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.banner {
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-vector/wave-background-abstract-gradient-design_483537-3688.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    height: auto;
+  }
+  
+  .banner-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .container h1 {
+    font-size: 50px;
+    color: #fff225;
+    font-family: "Poppins", sans-serif;
+
+  }
+  
+  .container p {
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+  .header-container .content p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #242424;
+  }
+  .header-container .content h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #242424;
+  }
+  
+  .content {
+    color: black;
+    text-align: center;
+    width:50%;
+    word-wrap: break-word;
+  }
+  
+  
+  .main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px ;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .vision, .mission {
+    max-width: 500px;
+    height: 400px;
+    background-color: #202020;
+    color: whit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+
+  }
+  .vision:hover,.mission:hover{
+       background-color: #373737;
+       color: #f2f2f2;
+  }
+  .vision h2, .mission h2 {
+    color: #fff225;
+  }
+ 
+  .vision p, .mission p {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .banner-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    .container h1 {
+      font-size: 30px;
+    }
+  
+    .container p {
+      font-size: 20px;
+    }
+  
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+      }
+    .vision, .mission {
+      max-width: 90%;
+      margin: 10px 0;
+    }
+  
+    .header-container {
+      padding: 10px;
+    }
+  }
+  

@@ -1,0 +1,31 @@
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detail{
+  width:100%;
+  height: auto;
+ text-align: center;
+ padding: 40px;
+ color: #ededed;
+ background-color: #242424;
+
+}
+.detail h1{
+  color: yellow;
+  font-size: 50px;
+}
+.row h3{
+  color:#ededed;
+}
+.icon{
+  color:yellow;
+}
+.row p{
+  color: #7a7676;
+}
+.map{
+  width:100%;
+}

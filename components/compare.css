@@ -1,0 +1,94 @@
+.Image{
+  background-color: #fafafa;
+}
+.comparison-table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px 0;
+  }
+.comparison-table{
+  text-align: center;
+}
+  .table-header, .table-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  .table-header {
+    font-weight: bold;
+    background-color: #fafafa;
+    padding: 15px 0;
+  }
+  
+  .spec-name, .spec-model, .spec-value {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .spec-name {
+    flex: 2;
+  }
+  
+  .table-row:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  .Compare{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .Image-row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+  }
+  .Image{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 40px;
+  }
+  @media (max-width: 768px) {
+    .Image{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      gap: 40px;
+      align-items: center;
+    }
+    .comparison-table {
+      font-size: 14px;
+    }
+  
+    .table-header, .table-row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .spec-name, .spec-model, .spec-value {
+      text-align: left;
+      width: 100%;
+      padding: 5px 0;
+    }
+  
+    .table-header {
+      text-align: center;
+    }
+  
+    .spec-name {
+      font-weight: bold;
+    }
+  
+    .spec-model, .spec-value {
+      padding-left: 20px;
+    }
+  
+    .table-row {
+      margin: 10px 0;
+    }
+  }
+  

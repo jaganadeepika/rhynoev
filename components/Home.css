@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.home-container {
+  text-align: center;
+  color: #242424;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.headline {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.changing-word {
+  color: #F9ED32;
+  font-size:45px;
+}
+.photo-container {
+  margin-bottom: 20px;
+}
+
+.photo {
+  width: 100%;
+  max-width: 900px;
+}
+
+.product-container {
+  background-color: #424242;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+}
+
+.product {
+  margin: 20px;
+  width: 100%;
+  max-width: 300px; 
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px;
+  text-align: center;
+}
+
+.Product1 h1, .Product2 h1, .Product3 h1 {
+  color: black;
+  font-family:  "Poppins", sans-serif;
+}
+
+.checkout-button {
+  margin-top: 10px;
+}
+
+.checkout-button button {
+  background-color: #F9ED32;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  color: #424242;
+  font-family:  "Poppins", sans-serif;
+}
+.carousel-inner{
+  margin-top: 20px;
+  width: auto;
+}
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+    color: #F9ED32;
+  }
+  
+  .carousel-caption p {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-caption h5 {
+      font-size: 20px;
+    }
+    .carousel-caption p {
+      font-size: 15px;
+    }
+  }
+  
