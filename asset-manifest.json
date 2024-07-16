@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/rhynoev/static/css/main.2a0b658a.css",
+    "main.js": "/rhynoev/static/js/main.af04763d.js",
+    "static/media/black.png": "/rhynoev/static/media/black.29636a740520e0fb1642.png",
+    "static/media/gray.png": "/rhynoev/static/media/gray.075b614073ffa3842bca.png",
+    "static/media/blue.png": "/rhynoev/static/media/blue.4093365836464ef9b828.png",
+    "static/media/bike.png": "/rhynoev/static/media/bike.b257484eb0ea3e36fc05.png",
+    "static/media/brown.png": "/rhynoev/static/media/brown.4e4d92df898154432b93.png",
+    "static/media/golden.png": "/rhynoev/static/media/golden.e38e17278baf2fecc15d.png",
+    "static/media/grp.png": "/rhynoev/static/media/grp.a93264ea17d08e587f51.png",
+    "static/media/motor.png": "/rhynoev/static/media/motor.61ec71a35ce240faec85.png",
+    "static/media/Rhynologo.png": "/rhynoev/static/media/Rhynologo.041956af44aec8d456b4.png",
+    "static/media/battery.png": "/rhynoev/static/media/battery.5ab7e01c88e1b61956ef.png",
+    "index.html": "/rhynoev/index.html",
+    "main.2a0b658a.css.map": "/rhynoev/static/css/main.2a0b658a.css.map",
+    "main.af04763d.js.map": "/rhynoev/static/js/main.af04763d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a0b658a.css",
+    "static/js/main.af04763d.js"
+  ]
+}
