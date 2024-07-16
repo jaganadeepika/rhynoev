@@ -21,7 +21,7 @@ const Navbar = () => {
     <nav className="navbar">
       <img src={Logo} alt="Logo" width={300} height={120} />
       <ul className={isMobile ? "nav-links-mob" : "nav-links"}>
-        <Link to="/" className="home" onClick={closeMobileMenu}>
+        <Link to="/rhynoev" className="home" onClick={closeMobileMenu}>
           <li>Home</li>
         </Link>
         <Link to="/about" className="about" onClick={closeMobileMenu}>
